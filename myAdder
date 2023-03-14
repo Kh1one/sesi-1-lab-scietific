@@ -1,0 +1,5 @@
+def myAdder(a, b, c):
+  out = a + b + c
+  return out
+ 
+ myAdder(1, 2, 3)
