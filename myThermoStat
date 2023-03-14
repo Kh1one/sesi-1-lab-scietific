@@ -1,0 +1,17 @@
+def myThermoStat(temp, desiredTemp):
+  if temp < desiredTemp - 5:
+    status = 'heat'
+  elif temp > desiredTemp + 5:
+    status = 'AC'
+  else:
+    status = 'Off'
+  return status
+
+status = myThermoStat(65, 75)
+print(status)
+
+status = myThermoStat(75, 65)
+print(status)
+
+status = myThermoStat(65, 63)
+print(status)
