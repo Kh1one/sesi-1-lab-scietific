@@ -1,0 +1,18 @@
+x = 3
+if x > 1 and x < 2:
+  y = 2
+elif x > 2 and x < 4:
+  y = 4
+else:
+  y = 0
+print(y)
+
+
+x = 3
+if 1 < x < 2:
+  y = 2
+elif 2 < x < 4:
+  y = 4
+else:
+  y = 0
+print(y)
